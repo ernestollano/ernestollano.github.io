@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="mobile-web-app-capable" content="yes">
+
+        <link rel="icon" sizes="192x192" href="images/launcher-icon-4x.png">
+        <link rel="icon" sizes="128x128" href="images/launcher-icon-128px.png">
+        <link rel="apple-touch-icon" sizes="128x128" href="images/launcher-icon-128px-bg.png">
+        <link rel="apple-touch-icon-precomposed" sizes="128x128" href="images/launcher-icon-128px-bg.png">
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+
+        <title>UCMC Dialer</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1>UCMC Dialer</h1>
+            <div class="form-group">
+                <input id="callback-number" type="tel" class="form-control form-control-lg" placeholder='5-digit callback number' maxlength="5" autofocus>
+            </div>
+            <button type="submit" class="btn btn-lg btn-primary btn-block">Dial</button>
+            <div class="bookmarks">
+                <ul>
+                    <li><a href="#dial" data-code="42337">Bed Access</a></li>
+                    <li><a href="#dial" data-code="26827">Blood Bank</a></li>
+                    <li><a href="#dial" data-code="69186">Blood Gas CCD</a></li>
+                </ul>
+                
+                <strong>Radiology/Procedures:</strong>
+                <ul>
+                    <li><a href="#dial" data-code="21843">Echo Scheduling</a></li>
+                    <li><a href="#dial" data-code="21761">Cath Lab A </a></li>
+                    <li><a href="#dial" data-code="25355">Cath Lab B</a></li>
+                    <li><a href="#dial" data-code="68794">EKG Tech CCD</a></li>
+                    <li><a href="#dial" data-code="29149">XR Tech</a></li>
+                    <li><a href="#dial" data-code="21306">IR Scheduling</a></li>
+                    <li><a href="#dial" data-code="49238">RROC</a></li>
+                    <li><a href="#dial" data-code="21310">Abdomen/Pelvis Reading Room</a></li>
+                    <li><a href="#dial" data-code="58311">Chest Reading Room</a></li>
+                    <li><a href="#dial" data-code="58044">Neuro Reading Room</a></li>
+                    <li><a href="#dial" data-code="56662">MSK Reading Room</a></li>
+                    <li><a href="#dial" data-code="68333">CT Scanner CCD</a></li>
+                    <li><a href="#dial" data-code="47060">CT Scanner DCAM</a></li>
+                    <li><a href="#dial" data-code="68403">MRI Scanner CCD</a></li>
+                </ul>
+                
+                <strong>Clinics:</strong>
+                <ul>
+                    <li><a href="#dial" data-code="20240">Primary Care Group</a></li>
+                    <li><a href="#dial" data-code="44010">Allergy</a></li>
+                    <li><a href="#dial" data-code="29461">Cardiology</a></li>
+                    <li><a href="#dial" data-code="21611">Dermatology</a></li>
+                    <li><a href="#dial" data-code="26140">Gastroenterology</a></li>
+                    <li><a href="#dial" data-code="26149">Hematology/Oncology</a></li>
+                    <li><a href="#dial" data-code="41443">Infectious Diseases</a></li>
+                    <li><a href="#dial" data-code="26134">Nephrology</a></li>
+                    <li><a href="#dial" data-code="26222">Neurology</a></li>
+                    <li><a href="#dial" data-code="26927">Pain</a></li>
+                    <li><a href="#dial" data-code="29660">Pulmonary</a></li>
+                    <li><a href="#dial" data-code="26119">Rheumatology</a></li>
+                    <li><a href="#dial" data-code="26870">Radiation Oncology</a></li>
+                </ul>
+                
+                <ul>
+                    <li><a href="#dial" data-code="47032">Breast Surgery</a></li>
+                    <li><a href="#dial" data-code="22500">Cardiothoracic Surgery</a></li>
+                    <li><a href="#dial" data-code="43524">General Surgery</a></li>
+                    <li><a href="#dial" data-code="47105">Neurosurgery</a></li>
+                    <li><a href="#dial" data-code="26118">Obstetrics/Gynecology</a></li>
+                    <li><a href="#dial" data-code="21865">Otolaryngology</a></li>
+                    <li><a href="#dial" data-code="23937">Ophthalmology</a></li>
+                    <li><a href="#dial" data-code="23937">Orthopedics</a></li>
+                    <li><a href="#dial" data-code="26302">Plastic Surgery</a></li>
+                    <li><a href="#dial" data-code="24500">Transplant Surgery</a></li>
+                    <li><a href="#dial" data-code="21860">Urology</a></li>
+                    <li><a href="#dial" data-code="26128">Vascular Surgery</a></li>
+                </ul>
+                
+                <strong>Laboratories:</strong>
+                <ul>
+                    <li><a href="#dial" data-code="21772">Chemistry</a></li>
+                    <li><a href="#dial" data-code="21315">Coagulation</a></li>
+                    <li><a href="#dial" data-code="21314">Hematology</a></li>
+                    <li><a href="#dial" data-code="26133">Micro</a></li>
+                </ul>
+            </div>
+            <div class="donate-container">
+                <a href="https://www.venmo.com/Raffi-Hagopian">
+                    Donate with
+                    <img src="images/button-venmo.png" width="125" height="37" />
+                </a>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="script.js"></script>
+    </body>
+</html>
